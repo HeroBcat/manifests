@@ -42,21 +42,23 @@ patchesStrategicMerge:
   - metadata-writer-deployment.yaml
 images:
   - name: gcr.io/ml-pipeline/api-server
-    newName: docker.io/aipipeline/api-server
+    newName: uhub.service.ucloud.cn/mirrors/api-server
     newTag: 1.0.0
   - name: gcr.io/ml-pipeline/persistenceagent
-    newName: docker.io/aipipeline/persistenceagent
+    newName: uhub.service.ucloud.cn/mirrors/persistenceagent
     newTag: 1.0.0
   - name: gcr.io/ml-pipeline/scheduledworkflow
-    newName: docker.io/aipipeline/scheduledworkflow
+    newName: uhub.service.ucloud.cn/mirrors/scheduledworkflow
     newTag: 1.0.0
   - name: gcr.io/ml-pipeline/frontend
-    newName: docker.io/aipipeline/frontend
+    newName: uhub.service.ucloud.cn/mirrors/frontend
     newTag: 1.0.0
   - name: gcr.io/ml-pipeline/viewer-crd-controller
+    newName: uhub.service.ucloud.cn/mirrors/viewer-crd-controller
     newTag: 1.7.0
   - name: gcr.io/ml-pipeline/visualization-server
+    newName: uhub.service.ucloud.cn/mirrors/visualization-server
     newTag: 1.7.0
   - name: gcr.io/ml-pipeline/metadata-writer
-    newName: docker.io/aipipeline/metadata-writer
+    newName: uhub.service.ucloud.cn/mirrors/metadata-writer
     newTag: 1.0.0

@@ -14,7 +14,7 @@ commonLabels:
   app.kubernetes.io/component: mpijob
 images:
 - name: mpioperator/mpi-operator
-  newName: mpioperator/mpi-operator
+  newName: uhub.service.ucloud.cn/mirrors/mpi-operator
   newTag: latest
 configMapGenerator:
 - name: mpi-operator-config

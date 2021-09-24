@@ -156,7 +156,7 @@ spec:
       containers:
         - name: filter
           terminationMessagePolicy: FallbackToLogsOnError
-          image: gcr.io/knative-releases/knative.dev/eventing/cmd/broker/filter@sha256:0e25aa1613a3a1779b3f7b7f863e651e5f37520a7f6808ccad2164cc2b6a9b12
+          image: uhub.service.ucloud.cn/mirrors/eventing-cmd-broker-filter_sha256:0e25aa1613a3a1779b3f7b7f863e651e5f37520a7f6808ccad2164cc2b6a9b12
           readinessProbe:
             failureThreshold: 3
             httpGet:
@@ -259,7 +259,7 @@ spec:
       containers:
         - name: ingress
           terminationMessagePolicy: FallbackToLogsOnError
-          image: gcr.io/knative-releases/knative.dev/eventing/cmd/broker/ingress@sha256:cf579f88aa2a37c240e25bb886c1ef5404e326e12c7caf571e49308612243eee
+          image: uhub.service.ucloud.cn/mirrors/eventing-cmd-broker-ingress_sha256:cf579f88aa2a37c240e25bb886c1ef5404e326e12c7caf571e49308612243eee
           readinessProbe:
             failureThreshold: 3
             httpGet:
@@ -371,7 +371,7 @@ spec:
       containers:
         - name: mt-broker-controller
           terminationMessagePolicy: FallbackToLogsOnError
-          image: gcr.io/knative-releases/knative.dev/eventing/cmd/mtchannel_broker@sha256:a2678934d280ea19b0804cc7757d559a0312e2acea221b17a99bd830cd9eeaac
+          image: uhub.service.ucloud.cn/mirrors/eventing-cmd-mtchannel_broker_sha256:a2678934d280ea19b0804cc7757d559a0312e2acea221b17a99bd830cd9eeaac
           resources:
             requests:
               cpu: 100m

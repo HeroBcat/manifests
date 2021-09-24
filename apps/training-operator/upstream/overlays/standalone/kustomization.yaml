@@ -6,5 +6,5 @@ resources:
   - namespace.yaml
 images:
   - name: kubeflow/training-operator
-    newName: public.ecr.aws/j1r0q0g6/training/training-operator
+    newName: uhub.service.ucloud.cn/mirrors/training-operator
     newTag: "d4423c83124ce7ab58b9a61a2e909b2e9c14c236"

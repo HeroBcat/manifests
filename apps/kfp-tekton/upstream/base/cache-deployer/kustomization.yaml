@@ -10,4 +10,5 @@ commonLabels:
   app: cache-deployer
 images:
   - name: gcr.io/ml-pipeline/cache-deployer
+    newName: uhub.service.ucloud.cn/mirrors/cache-deployer
     newTag: 1.7.0

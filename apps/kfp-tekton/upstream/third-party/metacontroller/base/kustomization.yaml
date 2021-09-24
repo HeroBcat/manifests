@@ -10,5 +10,5 @@ commonLabels:
   kustomize.component: metacontroller
 images:
 - name: metacontroller/metacontroller
-  newName: metacontroller/metacontroller
+  newName: uhub.service.ucloud.cn/mirrors/metacontroller
   newTag: v0.3.0

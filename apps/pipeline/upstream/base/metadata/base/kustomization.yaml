@@ -9,4 +9,5 @@ resources:
   - metadata-grpc-sa.yaml
 images:
   - name: gcr.io/ml-pipeline/metadata-envoy
+    newName: uhub.service.ucloud.cn/mirrors/metadata-envoy
     newTag: 1.7.0
